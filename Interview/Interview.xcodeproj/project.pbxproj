@@ -20,6 +20,9 @@
 		01A8E0112D9BB5CA00E0E5FD /* ObjectiveC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0102D9BB5CA00E0E5FD /* ObjectiveC.swift */; };
 		01A8E0142D9BBE2200E0E5FD /* UIComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0132D9BBE2200E0E5FD /* UIComponent.swift */; };
 		01A8E0162D9BBEC000E0E5FD /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0152D9BBEC000E0E5FD /* ComponentView.swift */; };
+		01A8E01A2D9BE4F500E0E5FD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0192D9BE4F500E0E5FD /* TextView.swift */; };
+		01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E01D2D9C011200E0E5FD /* ButtonView.swift */; };
+		01A8E0202D9C017200E0E5FD /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E01F2D9C017200E0E5FD /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		01A8E0102D9BB5CA00E0E5FD /* ObjectiveC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveC.swift; sourceTree = "<group>"; };
 		01A8E0132D9BBE2200E0E5FD /* UIComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponent.swift; sourceTree = "<group>"; };
 		01A8E0152D9BBEC000E0E5FD /* ComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentView.swift; sourceTree = "<group>"; };
+		01A8E0192D9BE4F500E0E5FD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		01A8E01D2D9C011200E0E5FD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		01A8E01F2D9C017200E0E5FD /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +168,8 @@
 		01A8E0082D9BB48F00E0E5FD /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				01A8E0172D9BE4A800E0E5FD /* View */,
 				01A8E0122D9BBE0A00E0E5FD /* DataModel */,
-				01A8E00A2D9BB52900E0E5FD /* SwiftUI.swift */,
-				01A8E0152D9BBEC000E0E5FD /* ComponentView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -183,6 +188,50 @@
 				01A8E0132D9BBE2200E0E5FD /* UIComponent.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		01A8E0172D9BE4A800E0E5FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E00A2D9BB52900E0E5FD /* SwiftUI.swift */,
+				01A8E0152D9BBEC000E0E5FD /* ComponentView.swift */,
+				01A8E0182D9BE4B900E0E5FD /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		01A8E0182D9BE4B900E0E5FD /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0212D9C017800E0E5FD /* Image */,
+				01A8E01C2D9C010600E0E5FD /* Button */,
+				01A8E01B2D9BE9B100E0E5FD /* Text */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		01A8E01B2D9BE9B100E0E5FD /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0192D9BE4F500E0E5FD /* TextView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		01A8E01C2D9C010600E0E5FD /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E01D2D9C011200E0E5FD /* ButtonView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		01A8E0212D9C017800E0E5FD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E01F2D9C017200E0E5FD /* ImageView.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,10 +366,13 @@
 			files = (
 				01A8DFDD2D9BB13B00E0E5FD /* Item.swift in Sources */,
 				01A8E0062D9BB21600E0E5FD /* TabView.swift in Sources */,
+				01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */,
 				01A8E00D2D9BB57100E0E5FD /* KitView.swift in Sources */,
+				01A8E0202D9C017200E0E5FD /* ImageView.swift in Sources */,
 				01A8DFD92D9BB13B00E0E5FD /* InterviewApp.swift in Sources */,
 				01A8E0162D9BBEC000E0E5FD /* ComponentView.swift in Sources */,
 				01A8E00B2D9BB52900E0E5FD /* SwiftUI.swift in Sources */,
+				01A8E01A2D9BE4F500E0E5FD /* TextView.swift in Sources */,
 				01A8E0142D9BBE2200E0E5FD /* UIComponent.swift in Sources */,
 				01A8E0112D9BB5CA00E0E5FD /* ObjectiveC.swift in Sources */,
 			);

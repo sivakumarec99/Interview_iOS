@@ -22,15 +22,14 @@ struct ComponentView<Content:View>: View {
                 Text(component.title)
                     .font(.largeTitle)
                     .bold()
+                Spacer()
                 Text(component.description)
                     .font(.subheadline)
                     .foregroundColor(.gray)
+                Spacer()
                 content
-                Text(component.code)
-                    .font(.system(.body, design: .monospaced))
-                    .padding()
-                    .background(backgroundColor)
-                    .cornerRadius(10)
+                Spacer()
+                CodeBlockView(code: component.code)
             }
             
             Button(action: {
@@ -74,4 +73,19 @@ struct ComponentView<Content:View>: View {
         #endif
     }
 }
+struct CodeBlockView: View {
+    let code: String
 
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: true) { // Allow horizontal scrolling
+            Text(code)
+                .font(.system(.body, design: .monospaced)) // Monospaced font for code
+                .padding()
+                .background(Color.black.opacity(0.8)) // Dark background
+                .foregroundColor(.green) // Code-style text color
+                .cornerRadius(10)
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
+                .padding(.horizontal)
+        }
+    }
+}
