@@ -23,6 +23,20 @@
 		01A8E01A2D9BE4F500E0E5FD /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0192D9BE4F500E0E5FD /* TextView.swift */; };
 		01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E01D2D9C011200E0E5FD /* ButtonView.swift */; };
 		01A8E0202D9C017200E0E5FD /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E01F2D9C017200E0E5FD /* ImageView.swift */; };
+		01A8E0242D9D02F800E0E5FD /* TextFiledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0232D9D02F800E0E5FD /* TextFiledView.swift */; };
+		01A8E0262D9D439500E0E5FD /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0252D9D439500E0E5FD /* ToggleView.swift */; };
+		01A8E02A2D9D480200E0E5FD /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0292D9D480200E0E5FD /* PickerView.swift */; };
+		01A8E02D2D9D502B00E0E5FD /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E02C2D9D502B00E0E5FD /* SliderView.swift */; };
+		01A8E0302D9D595F00E0E5FD /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E02F2D9D595F00E0E5FD /* StepperView.swift */; };
+		01A8E0332D9E911F00E0E5FD /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0322D9E911F00E0E5FD /* DatePickerView.swift */; };
+		01A8E0362D9E954000E0E5FD /* ProgressViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0352D9E954000E0E5FD /* ProgressViewScreen.swift */; };
+		01A8E0392D9E99A700E0E5FD /* GaugeViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0382D9E99A700E0E5FD /* GaugeViewScreen.swift */; };
+		01A8E03B2D9E9D3C00E0E5FD /* ProgressRingViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E03A2D9E9D3C00E0E5FD /* ProgressRingViewScreen.swift */; };
+		01A8E03F2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E03E2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift */; };
+		01A8E0432D9EAAA800E0E5FD /* ListScrollViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0422D9EAAA800E0E5FD /* ListScrollViewScreen.swift */; };
+		01A8E0462D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0452D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift */; };
+		01A8E0492D9EBDBD00E0E5FD /* AnimationsViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0482D9EBDBD00E0E5FD /* AnimationsViewScreen.swift */; };
+		01A8E04C2D9EC51100E0E5FD /* AdvancedViewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E04B2D9EC51100E0E5FD /* AdvancedViewsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +76,20 @@
 		01A8E0192D9BE4F500E0E5FD /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		01A8E01D2D9C011200E0E5FD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		01A8E01F2D9C017200E0E5FD /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		01A8E0232D9D02F800E0E5FD /* TextFiledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledView.swift; sourceTree = "<group>"; };
+		01A8E0252D9D439500E0E5FD /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		01A8E0292D9D480200E0E5FD /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		01A8E02C2D9D502B00E0E5FD /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		01A8E02F2D9D595F00E0E5FD /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		01A8E0322D9E911F00E0E5FD /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		01A8E0352D9E954000E0E5FD /* ProgressViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewScreen.swift; sourceTree = "<group>"; };
+		01A8E0382D9E99A700E0E5FD /* GaugeViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeViewScreen.swift; sourceTree = "<group>"; };
+		01A8E03A2D9E9D3C00E0E5FD /* ProgressRingViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingViewScreen.swift; sourceTree = "<group>"; };
+		01A8E03E2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabViewScreen.swift; sourceTree = "<group>"; };
+		01A8E0422D9EAAA800E0E5FD /* ListScrollViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScrollViewScreen.swift; sourceTree = "<group>"; };
+		01A8E0452D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsModalsViewScreen.swift; sourceTree = "<group>"; };
+		01A8E0482D9EBDBD00E0E5FD /* AnimationsViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewScreen.swift; sourceTree = "<group>"; };
+		01A8E04B2D9EC51100E0E5FD /* AdvancedViewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +231,20 @@
 		01A8E0182D9BE4B900E0E5FD /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				01A8E04A2D9EC4FD00E0E5FD /* Advanced */,
+				01A8E0472D9EBDB500E0E5FD /* Animations */,
+				01A8E0442D9EB70800E0E5FD /* AlertsModals */,
+				01A8E0402D9EAA9800E0E5FD /* ListScroll */,
+				01A8E03D2D9EA23200E0E5FD /* NavigationTab */,
+				01A8E03C2D9E9D4000E0E5FD /* ProgressRing */,
+				01A8E0372D9E999F00E0E5FD /* Gauge */,
+				01A8E0342D9E953600E0E5FD /* Progress */,
+				01A8E0312D9E907F00E0E5FD /* DatePicker */,
+				01A8E02E2D9D595600E0E5FD /* Stepper */,
+				01A8E02B2D9D502300E0E5FD /* SliderView */,
+				01A8E0282D9D47F800E0E5FD /* Picker */,
+				01A8E0272D9D439A00E0E5FD /* Toggle */,
+				01A8E0222D9D02E600E0E5FD /* TextField */,
 				01A8E0212D9C017800E0E5FD /* Image */,
 				01A8E01C2D9C010600E0E5FD /* Button */,
 				01A8E01B2D9BE9B100E0E5FD /* Text */,
@@ -232,6 +274,118 @@
 				01A8E01F2D9C017200E0E5FD /* ImageView.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		01A8E0222D9D02E600E0E5FD /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0232D9D02F800E0E5FD /* TextFiledView.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		01A8E0272D9D439A00E0E5FD /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0252D9D439500E0E5FD /* ToggleView.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		01A8E0282D9D47F800E0E5FD /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0292D9D480200E0E5FD /* PickerView.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		01A8E02B2D9D502300E0E5FD /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E02C2D9D502B00E0E5FD /* SliderView.swift */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		01A8E02E2D9D595600E0E5FD /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E02F2D9D595F00E0E5FD /* StepperView.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		01A8E0312D9E907F00E0E5FD /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0322D9E911F00E0E5FD /* DatePickerView.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		01A8E0342D9E953600E0E5FD /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0352D9E954000E0E5FD /* ProgressViewScreen.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		01A8E0372D9E999F00E0E5FD /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0382D9E99A700E0E5FD /* GaugeViewScreen.swift */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		01A8E03C2D9E9D4000E0E5FD /* ProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E03A2D9E9D3C00E0E5FD /* ProgressRingViewScreen.swift */,
+			);
+			path = ProgressRing;
+			sourceTree = "<group>";
+		};
+		01A8E03D2D9EA23200E0E5FD /* NavigationTab */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E03E2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift */,
+			);
+			path = NavigationTab;
+			sourceTree = "<group>";
+		};
+		01A8E0402D9EAA9800E0E5FD /* ListScroll */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0422D9EAAA800E0E5FD /* ListScrollViewScreen.swift */,
+			);
+			path = ListScroll;
+			sourceTree = "<group>";
+		};
+		01A8E0442D9EB70800E0E5FD /* AlertsModals */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0452D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift */,
+			);
+			path = AlertsModals;
+			sourceTree = "<group>";
+		};
+		01A8E0472D9EBDB500E0E5FD /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E0482D9EBDBD00E0E5FD /* AnimationsViewScreen.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		01A8E04A2D9EC4FD00E0E5FD /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				01A8E04B2D9EC51100E0E5FD /* AdvancedViewsScreen.swift */,
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,14 +521,28 @@
 				01A8DFDD2D9BB13B00E0E5FD /* Item.swift in Sources */,
 				01A8E0062D9BB21600E0E5FD /* TabView.swift in Sources */,
 				01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */,
+				01A8E0362D9E954000E0E5FD /* ProgressViewScreen.swift in Sources */,
+				01A8E0242D9D02F800E0E5FD /* TextFiledView.swift in Sources */,
 				01A8E00D2D9BB57100E0E5FD /* KitView.swift in Sources */,
 				01A8E0202D9C017200E0E5FD /* ImageView.swift in Sources */,
+				01A8E04C2D9EC51100E0E5FD /* AdvancedViewsScreen.swift in Sources */,
+				01A8E0432D9EAAA800E0E5FD /* ListScrollViewScreen.swift in Sources */,
+				01A8E03B2D9E9D3C00E0E5FD /* ProgressRingViewScreen.swift in Sources */,
+				01A8E0462D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift in Sources */,
+				01A8E03F2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift in Sources */,
+				01A8E0492D9EBDBD00E0E5FD /* AnimationsViewScreen.swift in Sources */,
 				01A8DFD92D9BB13B00E0E5FD /* InterviewApp.swift in Sources */,
 				01A8E0162D9BBEC000E0E5FD /* ComponentView.swift in Sources */,
 				01A8E00B2D9BB52900E0E5FD /* SwiftUI.swift in Sources */,
+				01A8E0332D9E911F00E0E5FD /* DatePickerView.swift in Sources */,
+				01A8E02D2D9D502B00E0E5FD /* SliderView.swift in Sources */,
+				01A8E0302D9D595F00E0E5FD /* StepperView.swift in Sources */,
 				01A8E01A2D9BE4F500E0E5FD /* TextView.swift in Sources */,
 				01A8E0142D9BBE2200E0E5FD /* UIComponent.swift in Sources */,
 				01A8E0112D9BB5CA00E0E5FD /* ObjectiveC.swift in Sources */,
+				01A8E02A2D9D480200E0E5FD /* PickerView.swift in Sources */,
+				01A8E0392D9E99A700E0E5FD /* GaugeViewScreen.swift in Sources */,
+				01A8E0262D9D439500E0E5FD /* ToggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

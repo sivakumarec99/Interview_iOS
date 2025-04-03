@@ -14,24 +14,95 @@ struct SwiftUIView: View {
 
 // Enum for UI Components
 enum UIComponentType: String, CaseIterable, Identifiable {
+    case Advanced = "Advanced"
+    case Animations = "Animations"
+    case AlertsModals = "AlertsModalsViewScreen"
+    case ListScroll = "ListScrollView"
+    case NavigationTab = "NavigationTab"
+    case ProgressRing = "ProgressRing"
+    case GaugeView = "GaugeView"
+    case progress = "Progress"
+    case DatePicker = "DatePicker"
+    case stepper = "Stepper"
+    case sliderView = "SliderView"
+    case picker = "Picker"
     case text = "Text"
     case button = "Button"
     case image = "Image"
-
+    case textFiled = "TexField"
+    case toggle = "Toggle"
+    
     var id: String { self.rawValue }
 
     @ViewBuilder
     var destination: some View {
         switch self {
+        case .progress:
+            ProgressViewScreen()
+        case .DatePicker:
+            DatePickerView()
+        case .stepper:
+            StepperView()
+        case .sliderView:
+            SliderView()
+        case.picker:
+            PickerView()
         case .text:
             TextView()
         case .button:
             ButtonView()
         case .image:
             ImageView()
+        case .textFiled:
+            TextFieldView()
+        case .toggle:
+            ToggleView()
+        case .GaugeView:
+            GaugeViewScreen()
+        case .ProgressRing:
+            ProgressRingViewScreen()
+        case .NavigationTab:
+            NavigationTabViewScreen()
+        case .ListScroll:
+            ListScrollViewScreen()
+        case .AlertsModals:
+            AlertsModalsViewScreen()
+        case .Animations:
+            AnimationsViewScreen()
+        case .Advanced:
+            AdvancedViewsScreen()
+        }
+    
+    }
+}
+// Extension to provide icons for components
+extension UIComponentType {
+    var iconName: String {
+        switch self {
+        case.DatePicker:
+            return "photo"
+        case .stepper:
+            return "photo"
+        case .sliderView:
+            return "photo"
+        case .picker:
+            return "photo"
+        case .text:
+            return "textformat"
+        case .button:
+            return "rectangle.and.hand.point.up"
+        case .image:
+            return "photo"
+        case .textFiled:
+            return "photo"
+        case .toggle:
+            return "rectangle.and.hand.point.up"
+        default:
+            return "photo"
         }
     }
 }
+
 
 struct ComponentListView: View {
     var body: some View {
@@ -52,17 +123,4 @@ struct ComponentListView: View {
     }
 }
 
-// Extension to provide icons for components
-extension UIComponentType {
-    var iconName: String {
-        switch self {
-        case .text:
-            return "textformat"
-        case .button:
-            return "rectangle.and.hand.point.up"
-        case .image:
-            return "photo"
-        }
-    }
-}
 
