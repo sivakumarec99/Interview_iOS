@@ -100,7 +100,7 @@ struct FormExampleView: View {
                     TextField("Name", text: $name)
                     #if os(iOS)
                         TextField("Email", text: $email)
-                            .keyboardType(.email)
+                            .keyboardType(.emailAddress)
                     #else
                         TextField("Email", text: $email)
                     #endif

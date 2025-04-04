@@ -14,6 +14,8 @@ struct SwiftUIView: View {
 
 // Enum for UI Components
 enum UIComponentType: String, CaseIterable, Identifiable {
+    case MenuView = "MenuView"
+    case LinkView  = "LinkView"
     #if os(macOS)
     case SplitView = "SplitView"
     #endif
@@ -87,6 +89,10 @@ enum UIComponentType: String, CaseIterable, Identifiable {
         case .SplitView:
             SplitViewScreen()
         #endif
+        case .LinkView:
+            LinkViewScreen()
+        case .MenuView:
+            MenuViewScreen()
         }
     
     }
