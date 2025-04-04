@@ -41,8 +41,6 @@
 		01A8E0522D9FA4E400E0E5FD /* FormViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0512D9FA4E400E0E5FD /* FormViewScreen.swift */; };
 		01A8E0552D9FA9B500E0E5FD /* GroupBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0542D9FA9B500E0E5FD /* GroupBoxScreen.swift */; };
 		01A8E0582D9FBD0800E0E5FD /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0572D9FBD0800E0E5FD /* SplitView.swift */; };
-		01A8E05A2D9FE9BC00E0E5FD /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0592D9FE9BC00E0E5FD /* LinkView.swift */; };
-		01A8E05E2D9FEBB200E0E5FD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E05D2D9FEBB200E0E5FD /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,8 +98,6 @@
 		01A8E0512D9FA4E400E0E5FD /* FormViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewScreen.swift; sourceTree = "<group>"; };
 		01A8E0542D9FA9B500E0E5FD /* GroupBoxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxScreen.swift; sourceTree = "<group>"; };
 		01A8E0572D9FBD0800E0E5FD /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
-		01A8E0592D9FE9BC00E0E5FD /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
-		01A8E05D2D9FEBB200E0E5FD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,8 +239,6 @@
 		01A8E0182D9BE4B900E0E5FD /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				01A8E05C2D9FEBA800E0E5FD /* Menu */,
-				01A8E05B2D9FE9C300E0E5FD /* Link */,
 				01A8E0562D9FBCF700E0E5FD /* SplitView */,
 				01A8E0532D9FA9AA00E0E5FD /* GroupBox */,
 				01A8E0502D9FA4D100E0E5FD /* Form */,
@@ -438,22 +432,6 @@
 			path = SplitView;
 			sourceTree = "<group>";
 		};
-		01A8E05B2D9FE9C300E0E5FD /* Link */ = {
-			isa = PBXGroup;
-			children = (
-				01A8E0592D9FE9BC00E0E5FD /* LinkView.swift */,
-			);
-			path = Link;
-			sourceTree = "<group>";
-		};
-		01A8E05C2D9FEBA800E0E5FD /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				01A8E05D2D9FEBB200E0E5FD /* MenuView.swift */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -586,10 +564,8 @@
 			files = (
 				01A8DFDD2D9BB13B00E0E5FD /* Item.swift in Sources */,
 				01A8E0062D9BB21600E0E5FD /* TabView.swift in Sources */,
-				01A8E05E2D9FEBB200E0E5FD /* MenuView.swift in Sources */,
 				01A8E04F2D9FA26400E0E5FD /* DiscloserGroup.swift in Sources */,
 				01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */,
-				01A8E05A2D9FE9BC00E0E5FD /* LinkView.swift in Sources */,
 				01A8E0362D9E954000E0E5FD /* ProgressViewScreen.swift in Sources */,
 				01A8E0242D9D02F800E0E5FD /* TextFiledView.swift in Sources */,
 				01A8E00D2D9BB57100E0E5FD /* KitView.swift in Sources */,
