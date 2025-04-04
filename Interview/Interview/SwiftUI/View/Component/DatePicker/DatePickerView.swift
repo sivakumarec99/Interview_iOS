@@ -151,9 +151,18 @@ struct RangeDatePicker: View {
     let endDate = Calendar.current.date(byAdding: .day, value: 7, to: Date())!
 
     var body: some View {
-        DatePicker("Select Date", selection: $selectedDate, in: startDate...endDate, displayedComponents: .date)
-            .datePickerStyle(WheelDatePickerStyle())
-            .padding()
+        #if os(macOS)
+            DatePicker("Select Date", selection: $selectedDate, in: startDate...endDate, displayedComponents: .date)
+                .datePickerStyle(
+                    .graphical)
+                .padding()
+        #else
+            DatePicker("Select Date", selection: $selectedDate, in: startDate...endDate, displayedComponents: .date)
+                .datePickerStyle(
+                    WheelDatePickerStyle())
+                .padding()
+        #endif
+       
     }
 }
 

@@ -223,7 +223,12 @@ struct FormPicker: View {
                         Text(option).tag(option)
                     }
                 }
+                #if os(iOS)
                 .pickerStyle(WheelPickerStyle())
+                #elseif os(macOS)
+                .pickerStyle(.automatic)
+                #endif
+                .padding()
             }
         }
     }
@@ -253,7 +258,11 @@ struct DynamicPicker: View {
                 Text(options[index]).tag(index)
             }
         }
+        #if os(iOS)
         .pickerStyle(WheelPickerStyle())
+        #elseif os(macOS)
+        .pickerStyle(.automatic)
+        #endif
         .padding()
     }
 }

@@ -14,6 +14,12 @@ struct SwiftUIView: View {
 
 // Enum for UI Components
 enum UIComponentType: String, CaseIterable, Identifiable {
+    #if os(macOS)
+    case SplitView = "SplitView"
+    #endif
+    case GroupBox = "GroupBox"
+    case FormView = "FormView"
+    case DisCloserGroup = "DisclosorGroup"
     case Advanced = "Advanced"
     case Animations = "Animations"
     case AlertsModals = "AlertsModalsViewScreen"
@@ -71,6 +77,16 @@ enum UIComponentType: String, CaseIterable, Identifiable {
             AnimationsViewScreen()
         case .Advanced:
             AdvancedViewsScreen()
+        case .DisCloserGroup:
+            DiscloserGroupViewScreen()
+        case .FormView:
+            FromViewCustom()
+        case .GroupBox:
+            GroupBoxViewScreen()
+        #if os(macOS)
+        case .SplitView:
+            SplitViewScreen()
+        #endif
         }
     
     }

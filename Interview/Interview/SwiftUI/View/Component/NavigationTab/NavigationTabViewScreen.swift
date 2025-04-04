@@ -26,7 +26,7 @@ struct NavigationTabViewScreen: View {
                     }
                 }
             }
-
+            
             struct DetailView: View {
                 var body: some View {
                     Text("Detail Screen")
@@ -55,7 +55,7 @@ struct NavigationTabViewScreen: View {
                     }
                 }
             }
-
+            
             struct DetailView: View {
                 let name: String
                 var body: some View {
@@ -241,6 +241,7 @@ struct CustomNavigationBar: View {
             }
             .navigationTitle("Custom Nav")
             .toolbar {
+                #if os(iOS)
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         print("Settings tapped")
@@ -248,6 +249,15 @@ struct CustomNavigationBar: View {
                         Image(systemName: "gear")
                     }
                 }
+                #elseif os(macOS)
+                ToolbarItem {
+                    Button(action: {
+                        print("Settings tapped")
+                    }) {
+                        Label("Settings", systemImage: "gear")
+                    }
+                }
+                #endif
             }
         }
     }
@@ -301,7 +311,7 @@ struct AdvancedTabView: View {
                     Label("Notifications", systemImage: "bell")
                 }
                 .badge(10)
-
+            
         }
     }
 }
