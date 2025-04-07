@@ -14,6 +14,12 @@ struct SwiftUIView: View {
 
 // Enum for UI Components
 enum UIComponentType: String, CaseIterable, Identifiable {
+    case webView = "WebView"
+    case mapView = "MapView"
+    case colourPicker = "ColourPicker"
+    case videoPlayer = "VideoPlayer"
+    case ActionSheet  = "ActionSheet"
+    case lazyGrid = "LazyGrid"
     #if os(macOS)
     case SplitView = "SplitView"
     #endif
@@ -87,6 +93,18 @@ enum UIComponentType: String, CaseIterable, Identifiable {
         case .SplitView:
             SplitViewScreen()
         #endif
+        case .lazyGrid:
+            LazyGrid()
+        case .ActionSheet:
+            ActionSheetView()
+        case .videoPlayer:
+            VideoPlayerView()
+        case .colourPicker:
+            ColurPickerView()
+        case .mapView:
+            MapViewScreen()
+        case .webView:
+            WebViewScreen()
         }
     
     }
