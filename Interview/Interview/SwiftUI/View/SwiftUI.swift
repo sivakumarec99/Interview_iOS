@@ -43,7 +43,8 @@ enum UIComponentType: String, CaseIterable, Identifiable {
     case image = "Image"
     case textFiled = "TexField"
     case toggle = "Toggle"
-    
+    case bt = "BT"
+    case resize = "resize"
     var id: String { self.rawValue }
 
     @ViewBuilder
@@ -105,7 +106,12 @@ enum UIComponentType: String, CaseIterable, Identifiable {
             MapViewScreen()
         case .webView:
             WebViewScreen()
+        case .bt:
+            PeripheralListView()
+        case .resize:
+            ResizeBox()
         }
+        
     
     }
 }

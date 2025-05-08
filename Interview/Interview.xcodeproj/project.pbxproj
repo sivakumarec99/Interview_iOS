@@ -47,6 +47,10 @@
 		01A8E0522D9FA4E400E0E5FD /* FormViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0512D9FA4E400E0E5FD /* FormViewScreen.swift */; };
 		01A8E0552D9FA9B500E0E5FD /* GroupBoxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0542D9FA9B500E0E5FD /* GroupBoxScreen.swift */; };
 		01A8E0582D9FBD0800E0E5FD /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A8E0572D9FBD0800E0E5FD /* SplitView.swift */; };
+		01C546BA2DCB1B8B002AD0E6 /* BlueTooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C546B92DCB1B8B002AD0E6 /* BlueTooth.swift */; };
+		01C546BF2DCB2140002AD0E6 /* BluetoothUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C546BE2DCB2140002AD0E6 /* BluetoothUI.swift */; };
+		01C546C12DCB2206002AD0E6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C546C02DCB2206002AD0E6 /* View.swift */; };
+		01C546C42DCB2A01002AD0E6 /* ResizeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C546C32DCB2A01002AD0E6 /* ResizeBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,11 @@
 		01A8E0512D9FA4E400E0E5FD /* FormViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewScreen.swift; sourceTree = "<group>"; };
 		01A8E0542D9FA9B500E0E5FD /* GroupBoxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxScreen.swift; sourceTree = "<group>"; };
 		01A8E0572D9FBD0800E0E5FD /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		01C546B82DCB1AF2002AD0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		01C546B92DCB1B8B002AD0E6 /* BlueTooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTooth.swift; sourceTree = "<group>"; };
+		01C546BE2DCB2140002AD0E6 /* BluetoothUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothUI.swift; sourceTree = "<group>"; };
+		01C546C02DCB2206002AD0E6 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		01C546C32DCB2A01002AD0E6 /* ResizeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +217,8 @@
 		01A8DFD72D9BB13B00E0E5FD /* Interview */ = {
 			isa = PBXGroup;
 			children = (
+				01C546BB2DCB20FB002AD0E6 /* Core */,
+				01C546B82DCB1AF2002AD0E6 /* Info.plist */,
 				01A8E0092D9BB49A00E0E5FD /* Objectiv C */,
 				01A8E0082D9BB48F00E0E5FD /* SwiftUI */,
 				01A8E0072D9BB48500E0E5FD /* UIKit */,
@@ -299,6 +310,7 @@
 		01A8E0182D9BE4B900E0E5FD /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				01C546C22DCB29EE002AD0E6 /* ResizeBox */,
 				015FE73A2DA3B39F004B39C2 /* WebView */,
 				015FE7372DA3B142004B39C2 /* MapView */,
 				015FE7342DA3B049004B39C2 /* ColourPicker */,
@@ -498,6 +510,40 @@
 			path = SplitView;
 			sourceTree = "<group>";
 		};
+		01C546BB2DCB20FB002AD0E6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				01C546BC2DCB210B002AD0E6 /* Bluetooth */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		01C546BC2DCB210B002AD0E6 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				01C546B92DCB1B8B002AD0E6 /* BlueTooth.swift */,
+				01C546BD2DCB211B002AD0E6 /* SwiftUI */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		01C546BD2DCB211B002AD0E6 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				01C546BE2DCB2140002AD0E6 /* BluetoothUI.swift */,
+				01C546C02DCB2206002AD0E6 /* View.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		01C546C22DCB29EE002AD0E6 /* ResizeBox */ = {
+			isa = PBXGroup;
+			children = (
+				01C546C32DCB2A01002AD0E6 /* ResizeBox.swift */,
+			);
+			path = ResizeBox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -634,6 +680,7 @@
 				01A8E01E2D9C011200E0E5FD /* ButtonView.swift in Sources */,
 				01A8E0362D9E954000E0E5FD /* ProgressViewScreen.swift in Sources */,
 				01A8E0242D9D02F800E0E5FD /* TextFiledView.swift in Sources */,
+				01C546C12DCB2206002AD0E6 /* View.swift in Sources */,
 				01A8E00D2D9BB57100E0E5FD /* KitView.swift in Sources */,
 				015FE7302DA399A6004B39C2 /* ActionSheetView.swift in Sources */,
 				01A8E0202D9C017200E0E5FD /* ImageView.swift in Sources */,
@@ -646,12 +693,15 @@
 				01A8E0462D9EB74D00E0E5FD /* AlertsModalsViewScreen.swift in Sources */,
 				01A8E03F2D9EA23B00E0E5FD /* NavigationTabViewScreen.swift in Sources */,
 				015FE7332DA39C46004B39C2 /* VideoPlayerView.swift in Sources */,
+				01C546C42DCB2A01002AD0E6 /* ResizeBox.swift in Sources */,
+				01C546BF2DCB2140002AD0E6 /* BluetoothUI.swift in Sources */,
 				01A8E0492D9EBDBD00E0E5FD /* AnimationsViewScreen.swift in Sources */,
 				015FE73C2DA3B3B2004B39C2 /* WebViewScreen.swift in Sources */,
 				01A8DFD92D9BB13B00E0E5FD /* InterviewApp.swift in Sources */,
 				01A8E0582D9FBD0800E0E5FD /* SplitView.swift in Sources */,
 				01A8E0162D9BBEC000E0E5FD /* ComponentView.swift in Sources */,
 				01A8E00B2D9BB52900E0E5FD /* SwiftUI.swift in Sources */,
+				01C546BA2DCB1B8B002AD0E6 /* BlueTooth.swift in Sources */,
 				01A8E0332D9E911F00E0E5FD /* DatePickerView.swift in Sources */,
 				01A8E02D2D9D502B00E0E5FD /* SliderView.swift in Sources */,
 				01A8E0302D9D595F00E0E5FD /* StepperView.swift in Sources */,
@@ -829,6 +879,9 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interview/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to communicate with other devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to act as a peripheral device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -863,6 +916,9 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interview/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to communicate with other devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to act as a peripheral device";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
